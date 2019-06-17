@@ -8,7 +8,7 @@ using namespace std;
 
 void Money::input(){
     char dollarSign;
-    cin >> dollarSign; //hopefully
+    cin >> dollarSign;
         if (dollarSign != '$') {
             cout << "No dollar sign in Money input.\n";
             exit(1);
