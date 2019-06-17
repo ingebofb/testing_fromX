@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CB32C22422B7A0CA00E9B825 /* money.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB32C22222B7A0CA00E9B825 /* money.cpp */; };
+		CB32C22722B7BEBE00E9B825 /* employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB32C22522B7BEBE00E9B825 /* employee.cpp */; };
 		CB76BF9322B7990A00B3B962 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB76BF9222B7990A00B3B962 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		CB32C22222B7A0CA00E9B825 /* money.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = money.cpp; sourceTree = "<group>"; };
 		CB32C22322B7A0CA00E9B825 /* money.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = money.hpp; sourceTree = "<group>"; };
+		CB32C22522B7BEBE00E9B825 /* employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = employee.cpp; sourceTree = "<group>"; };
+		CB32C22622B7BEBE00E9B825 /* employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = employee.hpp; sourceTree = "<group>"; };
 		CB76BF8F22B7990A00B3B962 /* testing_fromX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testing_fromX; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB76BF9222B7990A00B3B962 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				CB76BF9222B7990A00B3B962 /* main.cpp */,
+				CB32C22522B7BEBE00E9B825 /* employee.cpp */,
+				CB32C22622B7BEBE00E9B825 /* employee.hpp */,
 				CB32C22222B7A0CA00E9B825 /* money.cpp */,
 				CB32C22322B7A0CA00E9B825 /* money.hpp */,
 			);
@@ -125,6 +130,7 @@
 			files = (
 				CB32C22422B7A0CA00E9B825 /* money.cpp in Sources */,
 				CB76BF9322B7990A00B3B962 /* main.cpp in Sources */,
+				CB32C22722B7BEBE00E9B825 /* employee.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
