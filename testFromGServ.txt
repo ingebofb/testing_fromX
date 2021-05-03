@@ -1,5 +1,7 @@
 Test at github
 
+Add a line locally
+
 More text in file
 
 Even more text
